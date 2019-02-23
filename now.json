@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "test-now-react",
+  "alias": ["test-now-react.arnaudorieux.com"],
   "builds": [
       { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }
   ],
